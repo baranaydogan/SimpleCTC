@@ -14,8 +14,7 @@ Just run the "install" script as
 
 $./install
 
-This will create the executable
-"simpleExample"
+This will create the executable "simpleExample"
 
 
 USAGE:
@@ -25,24 +24,18 @@ $./simpleExample test_128x128.binary 0.1 32
 
 Description of arguments:
 
-- First argument (test_128x128.binary) is the name 
-of the input image file.
+- First argument (test_128x128.binary) is the nam of the input image file.
 
 The format of the file name is important.
 
-For "test_128x128.binary", "_128x128" indicates the size.
-".binary" indicates the data format. ".binary" means a
-binary image composed of 1s and 0s. The values are of
+For "test_128x128.binary", "_128x128" indicates the size. ".binary" indicates the data format. ".binary" means a binary image composed of 1s and 0s. The values are of
 uint8 data type in the image.
 
-The code supports 2D/3D images of types binary, uint8 
-and uint16.
+The code supports 2D/3D images of types binary, uint8 and uint16.
 
 Example: example3D_128x128x128.uint16
 
 
-- Second argument (0.1) is the intensity threshold
-used in pruning
+- Second argument (0.1) is the intensity threshold used in pruning.
 
-- Third argument (32) is the area/volume threshold
-used in pruning
+- Third argument (32) is the area/volume threshold used in pruning.
