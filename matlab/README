@@ -1,0 +1,56 @@
+INTRODUCTION:
+---------------------------------------------------
+
+SimpleCTC comes with a seperate MATLAB code
+which is "ContourTreeConnectivity.m"
+
+In order to run the code, you need to compile
+SimpleCT.
+
+If you have not done yet should should first run:
+
+>> mex -setup
+
+to setup your compiler for MATLAB.
+
+After this, just run:
+
+>> matlab_setup
+
+If everything goes OK, this will compile SimpleCT
+for you and run the 2 example scripts: 
+"example_CT.m" and "example_CTC.m"
+(The code is only tested in Ubuntu 12.04.)
+
+
+---------------------------------------------------
+EXAMPLE-1
+---------------------------------------------------
+"example_CT" demonstrates how SimpleCT can be
+called to compute contou trees.
+
+The executable comes with SimpleCT for MATLAB
+interface is ContourTree. This can be called as:
+
+% Computes and prunes the contour tree
+>> [ct ct_img] = ContourTree(img,0.1,32);
+
+% Plots the contour tree
+>> ContourTreePlot(img, ct, ct_img);
+
+
+---------------------------------------------------
+EXAMPLE-2
+---------------------------------------------------
+"example_CTC" demonstrates how ctc can be computed
+using the ContourTreeConnectivity function.
+
+% If you need only the CTC value, just run:
+(Input "img" must be LOGICAL type)
+>> ctc = ContourTreeConnectivity(img);
+
+If you want to specify pruning parameters, use:
+>> ctc = ContourTreeConnectivity(img,0.1,32);
+
+which will prune with intensity threshold 0.1, and
+area/volume threshold 32.
