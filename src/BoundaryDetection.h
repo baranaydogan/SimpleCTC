@@ -2,7 +2,7 @@
 ------Marks regions for a given binary input image as follows-----
 
 Foreground 	=  1
-Boundary 		=  0
+Boundary 	=  0
 Background	= -1
 
 Uses 4-connectivity for 2D, 6-connectivity for 3D
@@ -12,9 +12,9 @@ OUTPUT:
 				dt: 	Region labels
 INPUTS:
 				b:  	Binary input image
-				m:		number of rows
-				n:		number of columns
-				p: 		number of slices
+				m:	number of rows
+				n:	number of columns
+				p: 	number of slices
 _____________________________________________________________
  */
 
