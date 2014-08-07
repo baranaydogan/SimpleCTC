@@ -9,7 +9,15 @@ algebraic graph theory”, IEEE International Conference on Image Processing (IC
 
 -------------------------------------------------------------------
 
-SimpleCTC is a simple contour tree connectivity (CTC) library.
+DESCRIPTION:
+
+SimpleCTC simply computes the contour tree connectivity (CTC) of 2D/3D 
+images.
+
+Known dependencies are:
+- SLEPc
+- PETSc
+- OpenMPI
 
 It uses SimpleCT for contour tree computation. SimpleCTC contains 
 seperate MATLAB and C++ routines to compute CTC.
@@ -27,20 +35,6 @@ explains and directs you on how to install and use SimpleCTC.
 
 If you are planning to use SimpleCTC in C/C++, please go to "example"
 folder and read the README file.
-
-
--------------------------------------------------------------------
-
--------------------------------------------------------------------
-DESCRIPTION:
-
-SimpleCTC simply computes the contour tree connectivity (CTC) of 2D/3D 
-images.
-
-Known dependencies are:
-- SLEPc
-- PETSc
-- OpenMPI
 
 ____________________________________________________________________
 LICENSE INFORMATION:
