@@ -1,6 +1,14 @@
 SimpleCTC
 =========
 
+If you use this code or CTC in your work please cite the following publication:
+
+Aydogan D.B. & Hyttinen J. “Contour tree connectivity of binary images from 
+algebraic graph theory”, IEEE International Conference on Image Processing (ICIP), 
+15-22.09.2013, Melbourne, Australia
+
+-------------------------------------------------------------------
+
 SimpleCTC is a simple contour tree connectivity (CTC) library.
 
 It uses SimpleCT for contour tree computation. SimpleCTC contains 
@@ -28,13 +36,6 @@ DESCRIPTION:
 
 SimpleCTC simply computes the contour tree connectivity (CTC) of 2D/3D 
 images.
-
-If you use this code or CTC in your work please cite the following
-publication:
-
-Aydogan D.B. & Hyttinen J. “Contour tree connectivity of binary images 
-from algebraic graph theory”, IEEE International Conference
-on Image Processing (ICIP), 15-22.09.2013, Melbourne, Australia
 
 Known dependencies are:
 - SLEPc
